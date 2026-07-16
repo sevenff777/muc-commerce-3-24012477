@@ -1,0 +1,14 @@
+﻿step,rule,before_count,after_count,affected_count,details
+删除完全重复行,删除重复记录，保留唯一记录,5630,5630,0,删除了 0 条重复行
+填补缺失值：Tenure,使用总体中位数填补数值缺失,264,0,264,Tenure 中位数为 9.00
+填补缺失值：WarehouseToHome,使用总体中位数填补数值缺失,251,0,251,WarehouseToHome 中位数为 14.00
+填补缺失值：HourSpendOnApp,使用总体中位数填补数值缺失,255,0,255,HourSpendOnApp 中位数为 3.00
+填补缺失值：OrderAmountHikeFromlastYear,使用总体中位数填补数值缺失,265,0,265,OrderAmountHikeFromlastYear 中位数为 15.00
+填补缺失值：CouponUsed,使用总体中位数填补数值缺失,256,0,256,CouponUsed 中位数为 1.00
+填补缺失值：OrderCount,使用总体中位数填补数值缺失,258,0,258,OrderCount 中位数为 2.00
+填补缺失值：DaySinceLastOrder,使用总体中位数填补数值缺失,307,0,307,DaySinceLastOrder 中位数为 3.00
+类别标准化：PreferredLoginDevice,统一业务类别名称,5630,5630,1231,将 1231 条 PreferredLoginDevice 映射为标准类别
+类别标准化：PreferredPaymentMode,统一业务类别名称,5630,5630,638,将 638 条 PreferredPaymentMode 映射为标准类别
+类别标准化：PreferedOrderCat,统一业务类别名称,5630,5630,809,将 809 条 PreferedOrderCat 映射为标准类别
+类型转换：Churn,将布尔/数值标志转换为整数类型,5630,5630,0,Churn 转换为 Int64 类型
+类型转换：Complain,将布尔/数值标志转换为整数类型,5630,5630,0,Complain 转换为 Int64 类型
