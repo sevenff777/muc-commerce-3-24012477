@@ -1,0 +1,5 @@
+﻿规则,不合规记录数
+Tenure < 0,0
+WarehouseToHome < 0,0
+OrderCount <= 0,0
+CashbackAmount < 0,0

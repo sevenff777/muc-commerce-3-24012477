@@ -1,0 +1,6 @@
+﻿chart_id,file_name,business_question,chart_type,key_finding,limitation
+01,01_category_bar.png,不同用户生命周期阶段的流失率如何分布？,bar,0-3个月新用户流失率显著最高，超过40%，表明初期留存是关键。,未考虑阶段内用户人口统计特征和事件触发因素。
+02,02_behavior_scatter.png,订单次数与返现金额是否与用户流失相关？,scatter,低订单数和低返现用户更易流失，说明活跃度与激励水平可能有关。,散点图仅展示关联，不区分因果或其他影响因素。
+03,03_ordered_line.png,随用户使用时长变化，流失率是否呈阶段性趋势？,line,流失率随TenureGroup阶段整体下降，成熟用户留存更稳定。,忽略了组内订单频率、复购间隔等行为差异。
+04,04_composition_chart.png,各支付方式在用户群中的占比如何？,pie_or_bar,信用卡与借记卡占比最高，移动支付次之，显示支付偏好集中。,仅展示构成比例，不反映支付方式与流失或价值之间的关系。
+05,day06_visualization_summary.png,整体可视化分析能否揭示关键留存与行为模式？,dashboard,综合看：初期流失高、低活跃用户易流失、长期用户留存率更高。,仪表盘基于有限变量，无法代表所有客户行为和因果机制。
